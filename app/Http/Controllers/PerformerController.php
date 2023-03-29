@@ -19,7 +19,7 @@ class PerformerController extends Controller
     {
         //
         $performers = Performer::all();
-        return response()->json(new PerformerCollection($performers));
+        return response()->json(new PerformerCollectionResource($performers));
     }
 
     /**

@@ -25,7 +25,7 @@ class PerformerEventController extends Controller
 
         return response()->json([
             'performer' => $performer->name,
-            'events' => new EventCollecton($events)
+            'events' => new EventCollectionResource($events)
         ]);
     }
 }

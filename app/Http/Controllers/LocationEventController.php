@@ -25,7 +25,7 @@ class LocationEventController extends Controller
 
         return response()->json([
             'location' => $location->name,
-            'events' => new EventCollecton($events)
+            'events' => new EventCollectionResource($events)
         ]);
     }
 }
