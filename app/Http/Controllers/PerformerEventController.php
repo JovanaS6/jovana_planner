@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Resources\EventCollecton;
+use App\Http\Resources\EventCollectionResource;
 use App\Models\Event;
 use App\Models\Performer;
 

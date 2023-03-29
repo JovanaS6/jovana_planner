@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 
-use App\Http\Resources\EventCollecton;
+use App\Http\Resources\EventCollectionResource;
 use App\Http\Resources\EventResource;
 use App\Models\Event;
 use App\Models\Location;

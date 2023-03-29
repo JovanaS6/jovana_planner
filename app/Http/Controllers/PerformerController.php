@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Resources\PerformerCollection;
+use App\Http\Resources\PerformerCollectionResource;
 use App\Http\Resources\PerformerResource;
 use App\Models\Performer;
 use Illuminate\Http\Request;
