@@ -13,14 +13,14 @@ class LocationResource extends JsonResource
      * @return array|\Illuminate\Contracts\Support\Arrayable|\JsonSerializable
      */
 
-     public static $wrap = 'performer';
+     public static $wrap = 'location';
 
     public function toArray($request)
     {
         return [
             'name' => $this->resource->name,
-            'gender' => $this->resource->gender,
-            'performance' => $this->resource->performance,
+            'address' => $this->resource->address . ", " . $this->resource->city,
+            'capacity' => $this->resource->capacity
         ];
     }
 }
