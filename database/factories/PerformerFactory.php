@@ -17,7 +17,9 @@ class PerformerFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'name' => fake()->name(),
+            'performance' => fake()->jobTitle(),
+            'gender' => fake()->randomElement(['male', 'female'])
         ];
     }
 }
